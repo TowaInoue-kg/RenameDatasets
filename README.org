@@ -15,6 +15,14 @@
 ファイル内のデータセット(フォルダ)を一括で名前の変更と1から順の番号振りをする機能
 
 
+* 使用言語
+  :PROPERTIES:
+  :CUSTOM_ID: 言語
+  :END:
+
+-Ruby
+
+
 * 使用前の問題点
   :PROPERTIES:
   :CUSTOM_ID: 問題点
