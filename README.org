@@ -34,12 +34,12 @@
 
 
 #+begin_src bash
-Enter path
+Enter path:
 Enter the base file name:
 #+end_src
 
 
-データが入っているフォルダのパスとデータの名前を順に入力します
+指定の通りにデータが入っているフォルダのパスとデータの名前を順に入力します
 
 
 * 機能
