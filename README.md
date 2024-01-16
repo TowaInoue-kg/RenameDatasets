@@ -1,11 +1,4 @@
 # RenameDatasets
-#+AUTHOR:  Towa Inoue
-#+EMAIL:     (concat "nishitani@kwansei.ac.jp")
-#+LANGUAGE:  jp
-#+OPTIONS:   H:4 toc:t num:2
-#+SETUPFILE: /Users/bob/.emacs.d/org-mode/theme-readtheorg.setup
-#+STARTUP: indent nolineimages
-#+OPTIONS: ^:{}
 
 * 概要
   :PROPERTIES:
