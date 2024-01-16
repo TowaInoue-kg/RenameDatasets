@@ -73,7 +73,7 @@ files = Dir.entries(directory_path).select { |f| File.file? File.join(directory_
 ```
 files.each_with_index do |file, index|
   ext = File.extname(file)
-  new_name = "#{index + 1}_#{base_name}#{ext}"
+  new_name = "d#{index + 1}_#{base_name}.#{ext}"
   FileUtils.mv(File.join(directory_path, file), File.join(directory_path, new_name))
   puts "Renamed: #{file} to #{new_name}"
 end
