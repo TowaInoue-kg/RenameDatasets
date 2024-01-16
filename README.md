@@ -24,10 +24,6 @@
 
 ## 使用法
 
-```
-git clone https://github.com/TowaInoue-kg/RenameDatasets.git
-```
-
 
 ```
 > ruby main.rb
