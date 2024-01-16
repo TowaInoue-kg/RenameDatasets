@@ -66,8 +66,36 @@ Enter the base file name:
   :CUSTOM_ID: 解説
   :END:
 
-#+begin_src bash
-> ruby main.rb
+#+begin_src ruby
+puts "Enter path:"
+directory_path = gets.chomp
+#+end_src
+ 
+対象のフォルダのパスを指定します。
+
+
+#+begin_src ruby
+puts "Enter the base file name:"
+base_name = gets.chomp
 #+end_src
 
+指定のファイル名を設定します。
 
+
+#+begin_src ruby
+files = Dir.entries(directory_path).select { |f| File.file? File.join(directory_path, f) }
+#+end_src
+
+フォルダ内のデータを取得します
+
+
+#+begin_src ruby
+files.each_with_index do |file, index|
+  ext = File.extname(file)
+  new_name = "#{index + 1}_#{base_name}#{ext}"
+  FileUtils.mv(File.join(directory_path, file), File.join(directory_path, new_name))
+  puts "Renamed: #{file} to #{new_name}"
+end
+#+end_src
+
+データを1から順番に番号＋指定の名前に変更します
