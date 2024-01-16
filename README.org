@@ -33,16 +33,10 @@
 #+end_src
 
 
+#+begin_src bash
 Enter path
-
-
-データの格納フォルダのパス
-
-
 Enter the base file name:
-
-
-データの名前
+#+end_src
 
 
 データが入っているフォルダのパスとデータの名前を順に入力します
